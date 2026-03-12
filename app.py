@@ -7,7 +7,8 @@ total_bill = st.number_input("Total Bill")
 size = st.number_input("Size")
 sex = st.selectbox("Sex",['Male','Female'])
 smoker = st.selectbox("smoker",['Yes','No'])
-day = st.selectbox("Day",['Thur','Friday','Saturday','Sunday'])
+day = st.selectbox("Day",['Thur','Fri','Sat','Sun'])
+
 time = st.selectbox("Time",['Lunch','Dinner'])
 input_data = pd.DataFrame({
 'total_bill':[total_bill],
